@@ -6,7 +6,7 @@ var params = {
   from: process.env.WHATSAPP_CHANNEL_ID,
   type: "text",
   content: {
-    text: "Hello!",
+    text: "testing420",
     disableUrlPreview: false,
   },
 };
