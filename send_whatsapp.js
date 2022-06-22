@@ -17,3 +17,11 @@ messagebird.conversations.send(params, function (err, response) {
   }
   console.log(response);
 });
+
+// list conversations
+messagebird.conversations.list(20, 0, function (err, response) {
+  if (err) {
+    return console.log(err);
+  }
+  console.log(response);
+});
